@@ -2,7 +2,7 @@ version: '3.3'
 services:
   lookahead:
     build:
-      context: ./lookahead
+      context: ./look-ahead-rl
       dockerfile: Dockerfile
     container_name: "lookahead"
     image: "lookahead:latest"
